@@ -1,0 +1,20 @@
+meta {
+  name: register
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/public/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {"username":"aish",
+  "password":"aishwarya"}
+}
+
+settings {
+  encodeUrl: true
+}

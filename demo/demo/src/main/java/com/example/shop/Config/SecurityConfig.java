@@ -1,4 +1,4 @@
-package com.example.shop.config;
+package com.example.shop.Config;
 
 import com.example.shop.service.CustomUserDetailsService;
 import org.springframework.context.annotation.Bean;
